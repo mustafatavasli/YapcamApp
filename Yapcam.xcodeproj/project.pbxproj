@@ -13,6 +13,7 @@
 		D6AEAC1E2B9B1DF300F7767B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AEAC1D2B9B1DF300F7767B /* Preview Assets.xcassets */; };
 		D6AEAC202B9B1DF300F7767B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AEAC1F2B9B1DF300F7767B /* Persistence.swift */; };
 		D6AEAC232B9B1DF300F7767B /* Yapcam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6AEAC212B9B1DF300F7767B /* Yapcam.xcdatamodeld */; };
+		D6AEAC2B2B9B1E8200F7767B /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AEAC2A2B9B1E8200F7767B /* AddToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D6AEAC1D2B9B1DF300F7767B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6AEAC1F2B9B1DF300F7767B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D6AEAC222B9B1DF300F7767B /* Yapcam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yapcam.xcdatamodel; sourceTree = "<group>"; };
+		D6AEAC2A2B9B1E8200F7767B /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				D6AEAC162B9B1DF200F7767B /* YapcamApp.swift */,
-				D6AEAC182B9B1DF200F7767B /* ContentView.swift */,
+				D6AEAC292B9B1E7100F7767B /* View */,
 				D6AEAC1A2B9B1DF300F7767B /* Assets.xcassets */,
 				D6AEAC1F2B9B1DF300F7767B /* Persistence.swift */,
 				D6AEAC212B9B1DF300F7767B /* Yapcam.xcdatamodeld */,
@@ -71,6 +73,15 @@
 				D6AEAC1D2B9B1DF300F7767B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6AEAC292B9B1E7100F7767B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6AEAC182B9B1DF200F7767B /* ContentView.swift */,
+				D6AEAC2A2B9B1E8200F7767B /* AddToDoView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6AEAC202B9B1DF300F7767B /* Persistence.swift in Sources */,
+				D6AEAC2B2B9B1E8200F7767B /* AddToDoView.swift in Sources */,
 				D6AEAC192B9B1DF200F7767B /* ContentView.swift in Sources */,
 				D6AEAC232B9B1DF300F7767B /* Yapcam.xcdatamodeld in Sources */,
 				D6AEAC172B9B1DF200F7767B /* YapcamApp.swift in Sources */,
